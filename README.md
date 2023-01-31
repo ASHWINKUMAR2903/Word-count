@@ -16,8 +16,10 @@ The length of the split list should equal the numbe of words in the text file.
 ### Step 5: 
 You can refine the count by clearing the string prior t splitting or validatting the words after splitting.
 ## PROGRAM:
-#DEVELOPED BY: A.Ashwin Kumar
-#REGISTER NO: 22001702
+```
+DEVELOPED BY: A.Ashwin Kumar
+REGISTER NO: 22001702
+
 num_words=0
 with open('test.txt', 'r') as file1:
     for i in file1:
@@ -27,5 +29,6 @@ print("Number of words={}".format(num_words))
 ### OUTPUT:
 ![output](a.png)
 ![output](b.png)
+```
 ## RESULT:
 Thus the program is written to find the word count from a text.
