@@ -26,9 +26,9 @@ with open('test.txt', 'r') as file1:
         word=i.split()
         num_words += len(word)
 print("Number of words={}".format(num_words))
+```
 ### OUTPUT:
 ![output](a.png)
 ![output](b.png)
-```
 ## RESULT:
 Thus the program is written to find the word count from a text.
